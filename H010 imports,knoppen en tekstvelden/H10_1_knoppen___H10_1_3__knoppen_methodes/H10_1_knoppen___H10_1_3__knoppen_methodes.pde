@@ -1,3 +1,9 @@
+import controlP5.*;
+
+ControlP5 cp;
+
+Button knop1;
+
 void setup(){
   size(400,400);
   
@@ -8,12 +14,14 @@ void setup(){
              .setSize(200,200)
              .setCaptionLabel("hoi");
 
-knop1.setColorForeground(color(255,0,0));
-knop1.hide();
-knop1.show();
-knop1. setCaptionLabel("yes");
+
 }
 
 void draw(){
-  
+  background(0,255,0,0);
+}
+
+void knop1(){
+
+ 
 }
