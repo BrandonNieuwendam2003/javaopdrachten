@@ -22,6 +22,6 @@ void draw(){
 }
 
 void knop1(){
-
+println("dit werkt");
  
 }
