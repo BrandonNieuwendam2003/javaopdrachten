@@ -9,7 +9,7 @@ void setup(){
    }
 }
 if(gevonden){
-  println("ja de naam " + zoekNaam + "bestaat!");
+  println("ja de naam " + zoekNaam + " bestaat!");
 }else{
   println("Helaas de naam"+ zoekNaam + "ken ik niet!");
 }
