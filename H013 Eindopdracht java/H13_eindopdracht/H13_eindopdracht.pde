@@ -41,11 +41,30 @@ void draw(){
   //code voor de wijzers van de klok 
   stroke(355);
   strokeWeight(2);
-  line(cb, cn, cb + cos(w) * secondsRadius, cn + sin(w) * secondsRadius);
+  line(cb, cn, cb + cos(W) * secondsRadius, cn + sin(W) * secondsRadius);
   strokeWeight(3);
-  line(cb, cn, cb + cos(H) * minutesRadius,
+  line(cb, cn, cb + cos(H) * minutesRadius, cn + sin(H) * minutesRadius);
+  strokeWeight(4);
+  line(cb, cn, cb + cos(G) * hoursRadius, cn + sin(G) * hoursRadius;
+ // vragen aan Rick wat hier fout gaat^
+ 
+ 
+ //de code voor de minten van de klok 
+ strokeWeight(2);
+ beginShape(POINTS);
+ for (int a= 0; a < 360; a+=6) {
+     float angle = radians(a);
+     float x = cb + cos(angle) * secondsRadius; 
+     float y = cn + sin(angle) * secondsRadius;
+     vertex(x, y);
+     // vertex wordt gebruikt om de hoekpunt plekken op te geven voor punten, lijnen, driehoeken, quads en polygonen. wordt gebruikt bij  (beginShape() en endShape())
+     
+ }
+ endShape();
+ }
+ 
   
-  
+ 
   
   
   
